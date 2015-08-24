@@ -22,15 +22,17 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-### Install Composure
+#### Install Composure
+```
 curl -sS https://getcomposer.org/installer | php
 php composer.phar
 mv composer.phar /usr/local/bin/composer
-
-### Setup Laravel Project
+```
+#### Setup Laravel Project
+```
 cd /var/www/html
 sudo composer create-project laravel/laravel laravel-5-fundamentals
-
+```
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
