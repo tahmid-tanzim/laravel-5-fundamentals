@@ -33,6 +33,11 @@ mv composer.phar /usr/local/bin/composer
 cd /var/www/html
 sudo composer create-project laravel/laravel laravel-5-fundamentals
 ```
+#### Run Server
+```
+cd /var/www/html/laravel-5-fundamentals
+php -S localhost:8888 -t public
+```
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
