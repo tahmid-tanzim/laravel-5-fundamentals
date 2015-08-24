@@ -38,6 +38,11 @@ sudo composer create-project laravel/laravel laravel-5-fundamentals
 cd /var/www/html/laravel-5-fundamentals
 php -S localhost:8888 -t public
 ```
+#### Creating Controller
+ ```
+php artisan help make:controller
+php artisan make:controller PagesController --plain
+ ```
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
