@@ -39,10 +39,18 @@ cd /var/www/html/laravel-5-fundamentals
 php -S localhost:8888 -t public
 ```
 #### Creating Controller
- ```
+```
 php artisan help make:controller
 php artisan make:controller PagesController --plain
- ```
+```
+#### Basic Migrations Commands
+```
+php artisan migrate
+php artisan migrate:rollback
+php artisan make:migration create_articles_table --create="articles"
+php artisan make:migration add_excerpt_to_articles_table --table="articles"
+```
+
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
