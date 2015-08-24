@@ -25,7 +25,14 @@ class PagesController extends Controller
         /* Approach 3: Using 'with' function  */
         return view('pages.about')->with([
             'first' => 'Tahmid',
-            'last' => 'Tanzim'
+            'last' => 'Tanzim',
+            'authority' => 'admin',
+            'people' => ['Nazma Ali', 'Tahmid Tahsan Obin', 'Tom Hanks', 'Taylor Swift']
         ]);
+    }
+
+    public function contact()
+    {
+        return view('pages.contact');
     }
 }
