@@ -56,7 +56,7 @@ CREATE DATABASE <dbname>;
 SHOW DATABASES;
 exit
 ```
-#### Some Basic Migrations Commands
+#### Some Basic Migration Commands
 ```
 php artisan migrate
 php artisan migrate:rollback
