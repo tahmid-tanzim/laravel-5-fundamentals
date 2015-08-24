@@ -61,9 +61,18 @@ exit
 php artisan migrate
 php artisan migrate:rollback
 php artisan make:migration create_articles_table --create="articles"
+php artisan make:migration create_tasks_table --create="tasks"
 php artisan make:migration add_excerpt_to_articles_table --table="articles"
 ```
-
+#### Eloquent
+```
+php artisan make:model Article
+php artisan make:model Task
+```
+#### Alternate to Rails Console in Laravel
+```
+php artisan thinker
+```
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
