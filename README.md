@@ -26,12 +26,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ```
 curl -sS https://getcomposer.org/installer | php
 php composer.phar
-mv composer.phar /usr/local/bin/composer
+sudo mv composer.phar /usr/local/bin/composer
 ```
 #### Setup Laravel Project
 ```
 cd /var/www/html
+# Create Project
 sudo composer create-project laravel/laravel laravel-5-fundamentals
+# Clone Project
+git clone https://github.com/tahmid-tanzim/laravel-5-fundamentals.git
+cd laravel-5-fundamentals
+rm -rf vendor/ composer.lock
+composer install
 ```
 #### Run Server
 ```
@@ -43,7 +49,14 @@ php -S localhost:8888 -t public
 php artisan help make:controller
 php artisan make:controller PagesController --plain
 ```
-#### Basic Migrations Commands
+#### Creating Database First Time
+```
+mysql -uroot -p
+CREATE DATABASE <dbname>;
+SHOW DATABASES;
+exit
+```
+#### Some Basic Migrations Commands
 ```
 php artisan migrate
 php artisan migrate:rollback
