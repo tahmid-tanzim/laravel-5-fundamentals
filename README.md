@@ -48,6 +48,7 @@ php -S localhost:8888 -t public
 ```
 php artisan help make:controller
 php artisan make:controller PagesController --plain
+php artisan make:controller ArticlesController --plain
 ```
 #### Creating Database First Time
 ```
@@ -71,7 +72,7 @@ php artisan make:model Task
 ```
 #### Alternate to Rails Console in Laravel
 ```
-php artisan thinker
+php artisan tinker
 ```
 ### License
 

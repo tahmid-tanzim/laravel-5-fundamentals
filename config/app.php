@@ -13,7 +13,11 @@ return [
     |
     */
 
+    /* Development */
     'debug' => env('APP_DEBUG', false),
+
+    /* Production */
+//    'debug' => false,
 
     /*
     |--------------------------------------------------------------------------
