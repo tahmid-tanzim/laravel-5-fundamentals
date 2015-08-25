@@ -74,6 +74,14 @@ php artisan make:model Task
 ```
 php artisan tinker
 ```
+#### Include Package in Project from [The PHP Package Repository](https://packagist.org/)
+```
+composer require illuminate/html
+```
+#### Alternate to *bundle install* in Ruby on Rails
+```
+composer update or compose install
+```
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
