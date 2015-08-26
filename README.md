@@ -78,9 +78,13 @@ php artisan tinker
 ```
 composer require illuminate/html
 ```
-#### Alternate to *bundle install* in Ruby on Rails
+#### Alternate to *bundle install*
 ```
 composer update or compose install
+```
+#### Form Requests generator
+```
+php artisan make:request CreateArticleRequest
 ```
 ### License
 
