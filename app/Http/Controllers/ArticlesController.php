@@ -40,6 +40,9 @@ class ArticlesController extends Controller
 
     public function store(ArticleRequest $request)
     {
+        /* Retrieving The Authenticated User */
+//        $user = Auth::user();
+
         Article::create($request->all());
         return redirect('articles');
     }
