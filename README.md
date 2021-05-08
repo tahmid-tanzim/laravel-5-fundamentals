@@ -23,3 +23,5 @@ $ deactivate
 ```shell
 $ jupyter notebook
 ```
+
+* Grouping and Aggregating - Analyzing and Exploring Your Data
