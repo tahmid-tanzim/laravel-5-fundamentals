@@ -23,8 +23,3 @@ $ deactivate
 ```shell
 $ jupyter notebook
 ```
-
-* End Jupyter Notebook Server
-```shell
-$ jupyter notebook
-```
